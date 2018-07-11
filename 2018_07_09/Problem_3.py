@@ -59,9 +59,3 @@ class LongOrganism(Organism):
               'Region information can be acccessed using\n',
               'object.region() and object.Region', sep = '')
 
-Napus = ('Plantae', 'Tracheophyta', 'Magnoliopsida', 'Brassicales',
-         'Brassicaceae', 'Brassica', 'Napus', 'Rape', 'Asia', 1120, 4)
-
-a = LongOrganism(*Napus)
-
-a.full()
