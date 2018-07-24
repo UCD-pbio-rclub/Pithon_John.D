@@ -61,9 +61,10 @@ class Calculator:
             return
         try:
             self.result.set(str(float(eval(equation))))
+            self.equation.set(str(float(eval(equation))))
         except:
             self.result.set('Invalid Equation')
-        self.equation.set('')
+            self.equation.set('')
             
     def add(self,value):
         current = self.equation.get()
